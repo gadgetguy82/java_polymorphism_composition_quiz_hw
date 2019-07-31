@@ -113,4 +113,4 @@ Composition is more flexible in that you can switch out components depending on 
 It is easier to test the component class methods over having to test all the sub-class' super-class methods.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?<br />
-The other objects making up the destroyed object still remain.
+The other objects are destroyed inside the object but any independant instances outside would remain.
